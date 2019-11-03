@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+
+/* ----------------Start Reset---------------------------------------- */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+
+/* ----------End Reset---------------------------------- */
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    background: #62dec8;
+}
+
+.center {
+    max-width: 1200px;
+    margin: 0 auto;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: bold;
+    margin: 1rem 0;
+    color: #fff;
+    text-shadow: 2px 2px 5px #0b4137;
+    text-transform: uppercase;
+}
+
+#tasks {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+#tasks li {
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 .75rem .75rem 0;
+    padding: 1rem 0.75rem;
+    overflow: hidden;
+    border-radius: 0.75rem;
+    background: #fff;
+    box-shadow: 2px 2px 5px #0b4137;
+    text-align: center;
+    transition: .2s;
+}
+
+#tasks li:hover {
+    box-shadow: inset 2px 2px 3px 0px #0b4137;
+    background: rgb(255, 0, 140);
+    color: rgb(255, 255, 255);
+}
+
+#tasks .title {
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    font-weight: bold;
+}
+
+#tasks p {
+    padding: 0.75rem;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+}

@@ -1,0 +1,60 @@
+{
+    "teacher": {
+        "name": "Sergei",
+        "lastName": "Shakhov"
+    },
+    "students": [
+        {
+            "name": "Rustam",
+            "lastName": "Botirov"
+        },
+        {
+            "name": "Alexander",
+            "lastName": "Loshkarev"
+        },
+        {
+            "name": "Victoria",
+            "lastName": "Tulup"
+        },
+        {
+            "name": "Vladimir",
+            "lastName": "Kondratiev"
+        },
+        {
+            "name": "Evgeny",
+            "lastName": "Tskhovrebov"
+        },
+        {
+            "name": "David",
+            "lastName": "Lalabekyan"
+        },
+        {
+            "name": "Elena",
+            "lastName": "Semchenko"
+        },
+        {
+            "name": "Victor",
+            "lastName": "Mikhailenko"
+        },
+        {
+            "name": "Jeanne",
+            "lastName": "Manjos"
+        },
+        {
+            "name": "Yaroslav",
+            "lastName": "Morgun"
+        },
+        {
+            "name": "Denis",
+            "lastName": "Emets"
+        },
+        {
+            "name": "Victoria",
+            "lastName": "Sagaidachnaya"
+        },
+        {
+            "name": "Alexander",
+            "lastName": "Balanovsky"
+        }
+    ]
+}

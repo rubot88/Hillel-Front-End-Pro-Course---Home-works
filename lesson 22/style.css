@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #3900ff80;
+}
+
+#wrapper {
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 42px;
+    margin: 0 0 12px;
+    text-align: center;
+    color: #fffe00;
+}
+
+.button_holder {
+    text-align: center;
+    padding: 10px;
+    transform: scaleX(1);
+    transition: 0.4s;
+}
+
+.button_holder.hidden {
+    transform: scaleX(0);
+}
+
+.btn {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.product_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 85%;
+    list-style-type: none;
+    transform: scaleY(0);
+    transition: 0.2s;
+    margin: 0 auto;
+}
+
+.product_list li {
+    display: flex;
+    flex: 0 0 auto;
+    width: 20%;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(0, 255, 233, 0.2);
+    background-clip: border-box;
+    border: 1px solid rgb(0, 170, 155);
+    border-radius: 4px;
+    box-shadow: 0.5px 0.6px 0px 0.1px #009c6973;
+    margin: 0 10px 20px 0;
+    font-size: 26px;
+    line-height: 30px;
+    padding: 4px;
+}
+
+.product_list li a {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: #0051f6;
+    padding: 5% 10%;
+}
+
+.img_container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.product_list.active {
+    transform: scaleY(1);
+}
+
+.product_name,
+.product_description {
+    margin: 0 0 4px;
+    padding: 4px;
+    color: #ea00ff;
+}
+
+.product_description {
+    font-size: 0.8em;
+    line-height: 0.85em;
+}
+
+.product_list .product_name a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #0051f6;
+    padding: 4px 0;
+}
+
+.product_name a:hover {
+    text-decoration: underline;
+}
+
+.loader {
+    margin: 20px auto;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.error {
+    font-size: 40px;
+    line-height: 46px;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    padding: 10px 0;
+}

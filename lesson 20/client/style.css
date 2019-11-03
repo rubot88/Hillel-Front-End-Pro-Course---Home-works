@@ -1,0 +1,30 @@
+body{
+    font-size: 26px;
+    line-height: 30px;
+    padding: 10px;
+}
+p{
+    margin: 0 0 5px;
+    padding: 0;
+}
+.heading{
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: bold;
+    color: rgb(0, 228, 0);
+}
+.plain{
+    color: #003c8a;
+}
+.list{
+    color: #5a3000;
+    margin: 0;
+}
+.list li{
+    margin: 0 0 5px;
+}
+
+.error{
+    font-weight: bold;
+    color: red;
+}
